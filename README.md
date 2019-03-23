@@ -1,4 +1,5 @@
 
+
 # foo_now_playing_helper
 
 A foobar2000 component that announces events as well as track metadata via `OutputDebugString`, which allows for easy capture in other programs.
@@ -23,7 +24,7 @@ A foobar2000 component that announces events as well as track metadata via `Outp
 	Sent when playback is resumed.
 * `D6FNP_STATECHANGE_SETTRACK`
 
-	(I forgot when this happens, see: play_control::track_command_settrack, probably never occurs)
+	(I forgot when this happens, see: `play_control::track_command_settrack`, probably never occurs)
 * `D6FNP_STATECHANGE_STOP`
 
 	Sent when playback is stopped.
@@ -77,3 +78,6 @@ G:\example_path\music\Lilium Records - Lost Landscape\01. Moonlight.flac
 G:\example_path\music\Lilium Records - Lost Landscape\
 8
 ```
+
+### Tools
+You can use `Dbgview.exe` to view the messages: https://docs.microsoft.com/en-us/sysinternals/downloads/debugview
