@@ -1,0 +1,6 @@
+[submodule "lib/foobar2000_sdk"]
+	path = lib/foobar2000_sdk
+	url = https://github.com/DeadSix27/foobar2000_sdk
+[submodule "lib/WTL10"]
+	path = lib/WTL10
+	url = https://git.code.sf.net/p/wtl/git
